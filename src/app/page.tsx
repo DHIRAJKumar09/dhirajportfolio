@@ -1,10 +1,11 @@
+import { Profilecard } from "@/Components/Profilecard";
 
-import { Profilenav } from "@/Components/Profilenav";
+
 
 export default function Home() {
   return (
     <div>
-      <Profilenav/>
+      <Profilecard/>
     </div>
   );
 }
